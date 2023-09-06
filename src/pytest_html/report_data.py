@@ -36,6 +36,11 @@ class ReportData:
             '<th class="sortable" data-column-type="testId">Test</th>',
             '<th class="sortable" data-column-type="duration">Duration</th>',
             "<th>Links</th>",
+            '<th class="sortable" data-column-type="duration">SourceData</th>',
+            '<th class="sortable" data-column-type="duration">ExpectedData</th>',
+            '<th class="sortable" data-column-type="duration">ComparisonResult</th>',
+
+
         ]
 
         self._data = {
